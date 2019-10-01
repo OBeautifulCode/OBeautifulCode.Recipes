@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<package>
-    <metadata>
-		  <description>Builds expressions for mapping property and field values between objects.</description>
-    </metadata>
-</package>
