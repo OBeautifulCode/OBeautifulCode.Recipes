@@ -80,6 +80,11 @@ namespace OBeautifulCode.CodeAnalysis.Recipes
         public const string CA1027_MarkEnumsWithFlags_EnumValuesArePurposefullyNonContiguous = "This is not a flags enum.  Enum values are purposefully non-contiguous.";
 
         /// <summary>
+        /// This Exception is only used internally and the constructor(s) ensure that when the Exception is caught, it contains the required information.
+        /// </summary>
+        public const string CA1032_ImplementStandardExceptionConstructors_ExceptionUsedInternallyAndConstructorsEnsureRequiredInfoAvailableWhenCaught = "This Exception is only used internally and the constructor(s) ensure that when the Exception is caught, it contains the required information.";
+
+        /// <summary>
         /// A visible nested type is required in unit tests.
         /// </summary>
         public const string CA1034_NestedTypesShouldNotBeVisible_VisibleNestedTypeRequiredForTesting = "A visible nested type is required in unit tests.";
@@ -283,5 +288,10 @@ namespace OBeautifulCode.CodeAnalysis.Recipes
         /// The type is used in unit tests with no intention to serialize.
         /// </summary>
         public const string CA2237_MarkISerializableTypesWithSerializable_UsedForTestingWithNoIntentionToSerialize = "The type is used in unit tests with no intention to serialize.";
+
+        /// <summary>
+        /// The Exception is only used internally; it will never be serialized.
+        /// </summary>
+        public const string CA2237_MarkISerializableTypesWithSerializable_ExceptionOnlyUsedInternallyAndWillNeverBeSerialized = "The Exception is only used internally; it will never be serialized.";
     }
 }
