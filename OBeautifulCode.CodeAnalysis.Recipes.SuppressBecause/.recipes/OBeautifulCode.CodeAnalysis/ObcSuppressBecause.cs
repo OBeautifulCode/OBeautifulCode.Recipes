@@ -100,6 +100,11 @@ namespace OBeautifulCode.CodeAnalysis.Recipes
         public const string CA1051_DoNotDeclareVisibleInstanceFields_TypeUsedInTestingThatRequiresInstanceFieldToBeVisible = "The type is used for test code that requires the instance field to be visible.";
 
         /// <summary>
+        /// In this case we prefer to represent the URL as a string.
+        /// </summary>
+        public const string CA1054_UriParametersShouldNotBeStrings_PreferToRepresentUrlAsString = "In this case we prefer to represent the URL as a string.";
+
+        /// <summary>
         /// It's ok to throw NotSupportedException for an unreachable code path.
         /// </summary>
         public const string CA1065_DoNotRaiseExceptionsInUnexpectedLocations_ThrowNotSupportedExceptionForUnreachableCodePath = "It's ok to throw NotSupportedException for an unreachable code path.";
