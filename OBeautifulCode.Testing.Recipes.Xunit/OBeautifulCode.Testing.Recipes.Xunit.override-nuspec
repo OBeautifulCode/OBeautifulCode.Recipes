@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<package>
+  <metadata>
+    <description>Recipe that installs Xunit helper classes.</description>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Recipes/master/nuget-icon.png</iconUrl>
+  </metadata>
+</package>
