@@ -12,6 +12,7 @@ namespace OBeautifulCode.Testing.Recipes
     using global::System;
     using global::System.CodeDom.Compiler;
     using global::System.Diagnostics.CodeAnalysis;
+    using global::System.IO;
     using Xunit.Abstractions;
     
     /// <summary>
